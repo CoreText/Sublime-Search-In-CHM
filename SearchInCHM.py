@@ -75,4 +75,3 @@ class SearchinchmCommand(sublime_plugin.TextCommand):
         else:
             sublime.status_message('Place the cursor to the word.')
 
-# split
