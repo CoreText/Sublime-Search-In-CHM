@@ -48,7 +48,6 @@ class SearchinchmCommand(sublime_plugin.TextCommand):
         sublime.status_message('No word was selected.')
 
     def run(self, edit):
-        # view = self.view
         text = ''
         self.chm_file_path = sublime.load_settings('Default.sublime-settings').get('chm_file_path')
 
